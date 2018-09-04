@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.snooker.app",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.3.0",
+    "applicationType": "gateway",
+    "baseName": "core",
+    "packageName": "com.snooker.app",
+    "packageFolder": "com/snooker/app",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NmFmMzIwYjkxYjkyOTFmY2RiZDIxZDEwMTBjMjAxZjM5NzE5OGYxOTY1ZjZkMWQ4YzNiOTM2ZDk5ZjEyNjU0NWVlYTMzNjhlMzkwZmVhZDFiOWFkYTU1MTAzODE4OGE5MzFlMDkyODgyZDMxMjI2MDcxZGUzYjY1YTRmYTI4NTM=",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "protractor"
+    ],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "es"
+    ]
+  }
+}
